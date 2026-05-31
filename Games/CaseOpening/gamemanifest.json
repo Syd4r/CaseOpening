@@ -1,0 +1,109 @@
+{
+  "name": "CaseOpening",
+  "floorWeights": {
+    "1": 0.167,
+    "2": 0.111,
+    "3": 0.091,
+    "4": 0.063
+  },
+  "baseMinBet": 20,
+  "baseMaxBet": 360,
+  "directions": [
+    "North", "South", "East", "West"
+  ],
+  "buttons": [
+    {
+      "objectName": "PlayButton",
+      "functionName": "TryStartGame"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "backgroundParent",
+      "source": "child",
+      "targetName": "Background_Parent"
+    },
+    {
+      "fieldName": "itemPrefab",
+      "source": "child",
+      "targetName": "itemPrefab"
+    },
+    {
+      "fieldName": "revealTextBase",
+      "source": "child",
+      "targetName": "revealTextBase"
+    },
+    {
+      "fieldName": "revealTextStatTrak",
+      "source": "child",
+      "targetName": "revealTextStatTrak"
+    },
+    {
+      "fieldName": "revealTextWear",
+      "source": "child",
+      "targetName": "revealTextWear"
+    },
+    {
+      "fieldName": "revealTextPattern",
+      "source": "child",
+      "targetName": "revealTextPattern"
+    },
+    {
+      "fieldName": "revealTextTotal",
+      "source": "child",
+      "targetName": "revealTextTotal"
+    },
+    {
+      "fieldName": "blueItems",
+      "source": "child",
+      "targetNames": [
+        "blue1", "blue2", "blue3"
+      ]
+    },
+    {
+      "fieldName": "purpleItems",
+      "source": "child",
+      "targetNames": [
+        "purple1", "purple2", "purple3"
+      ]
+    },
+    {
+      "fieldName": "pinkItems",
+      "source": "child",
+      "targetNames": [
+        "pink1", "pink2"
+      ]
+    },
+    {
+      "fieldName": "redItems",
+      "source": "child",
+      "targetNames": [
+        "red1"
+      ]
+    },
+    {
+      "fieldName": "goldItems",
+      "source": "child",
+      "targetNames": [
+        "gold1", "gold2", "gold3",
+        "gold4", "gold5", "gold6", "gold7", 
+        "gold8", "gold9", "gold10"
+      ]
+    },
+    {
+      "fieldName": "goldIcon",
+      "source": "child",
+      "targetName": "goldicon"
+    },
+    {
+      "fieldName": "centerLinePrefab",
+      "source": "child",
+      "targetName": "centerLinePrefab"
+    },
+    {
+      "fieldName": "openCase",
+      "source": "child",
+      "targetName": "openCase"
+    }
+  ]
+}
